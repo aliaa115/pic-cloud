@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="../css/estilos.css">
+<br><br>
+<div class="alert-success">
+    <br>
+    <h1 class="text-light m-4 font-weight-bold display-1 bg-success text-center">LOG IN</h1>
+    <br><br>
+    <form class="text-center form-signin container" method="POST" action='/loged'>
+        <input type="email" name="email" id="email" class="texto text-center form-control" autocomplete="email" placeholder="Email" required="true"
+            autofocus="" style="background-color: lightgreen; color: black;">
+        <input type="password" name="password" id="password" class="texto text-center form-control " autocomplete="current-password" placeholder="Contraseña"
+            required="true" style="background-color: lightgreen; color: black;">
+        <div class=" checkbox mb-4">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class=" texto btn btn-lg btn-dark btn-block" type="submit" >Iniciar Sesion</button>
+    </form>
+    <p class="text-center form-signin container">Si aun no tienes cuenta <br><a class="nav-link" href="/signup">unete a PicCloud</a></p>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="../js/llenarDatos.js"></script>
+<br><br><br><br>
+
+<!--
+<script type="text/javascript">
+    const formLogin = document.querySelector('#login');
+    const formData = new FormData(formLogin);
+
+    var app = express();
+var bodyParser = require('body-parser');
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.post('/', function(req, res) {
+  res.json(req.body); // req.body is your form data
+});
+
+    formLogin.addEventListener('submit', event => {
+      event.preventDefault()
+      fetch('/loged', {
+        method: 'POST',
+        body: formData
+      })
+      .then(res => res.json())
+      .then(data => {
+        localStorage.setItem('user', data.usuario)
+      })
+    })
+</script>-->

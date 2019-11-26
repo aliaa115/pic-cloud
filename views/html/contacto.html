@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--FOOTER Y NAV   NO BORRAR-->
+
+<head>
+    <title>Contacto</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+
+<body>
+    <!-- ========== MAIN ========== -->
+    <main id="content" role="main">
+        <!-- Contact Form Section -->
+        <div class="container space-1 space-md-1">
+            <!-- Title -->
+            <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+                <span class="btn btn-xs btn-soft-success btn-pill mb-2">Deja un mensaje</span>
+                <h2 class="text-primary font-weight-normal">Cuéntanos sobre ti</h2>
+                <p>Si tiene preguntas o simplemente quiere saludarnos, contáctanos.</p>
+            </div>
+            <!-- End Title -->
+
+            <form action="https://formspree.io/piccloud.site@gmail.com" method="POST">
+                <div class="w-lg-80 mx-auto">
+                    <!-- Contacts Form -->
+                    <form class="js-validate">
+                        <div class="row">
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="js-form-message">
+                                    <label class="form-label">
+                                        nombre
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <input type="text" class="form-control" name="name" placeholder="Tu nombre"
+                                        aria-label="Tu Nombre" required data-msg="Por favor ingrese un nombre."
+                                        data-error-class="u-has-error" data-success-class="u-has-success">
+                                </div>
+                            </div>
+                            <!-- End Input -->
+
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="js-form-message">
+                                    <label class="form-label">
+                                        correo electrónico
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <input type="email" class="form-control" name="email" placeholder="email@gmail.com"
+                                        aria-label="email@gmail.com" required
+                                        data-msg="Por favor ingrese un correo valido." data-error-class="u-has-error"
+                                        data-success-class="u-has-success">
+                                </div>
+                            </div>
+                            <!-- End Input -->
+
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="js-form-message">
+                                    <label class="form-label">
+                                        asunto
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <input type="text" class="form-control" name="subject" placeholder="tu asunto"
+                                        aria-label="tu asunto" required data-msg="Por favor ingrese el asunto."
+                                        data-error-class="u-has-error" data-success-class="u-has-success">
+                                </div>
+                            </div>
+                            <!-- End Input -->
+
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="js-form-message">
+                                    <label class="form-label">
+                                        número de teléfono
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <input type="number" class="form-control" name="phone" placeholder="5555-5555"
+                                        aria-label="5555-5555" required data-msg="Por favor ingrese un número valido."
+                                        data-error-class="u-has-error" data-success-class="u-has-success">
+                                </div>
+                            </div>
+                            <!-- End Input -->
+                        </div>
+
+                        <!-- Input -->
+                        <div class="js-form-message mb-6">
+                            <label class="form-label">
+                                ¿Cómo podemos ayudarte?
+                                <span class="text-danger">*</span>
+                            </label>
+
+                            <div class="input-group">
+                                <textarea class="form-control" rows="4" name="text" placeholder="Hola, me gustaría..."
+                                    aria-label="Hola, me gustaría..." required data-msg="Por favor ingrese una razón."
+                                    data-error-class="u-has-error" data-success-class="u-has-success"></textarea>
+                            </div>
+                        </div>
+                        <!-- End Input -->
+
+                        <div class="text-center">
+                            <button type="submit"
+                                class="btn btn-primary btn-wide transition-3d-hover mb-4">Enviar</button>
+                        </div>
+                    </form>
+                    <!-- End Contacts Form -->
+                </div>
+            </form>
+        </div>
+        <!-- End Contact Form Section -->
+    </main><br>
+    <!-- ========== END MAIN ========== -->
+</body>
+
+</html>

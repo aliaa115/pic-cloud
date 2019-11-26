@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="../css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/estilos.css">
+<link rel="stylesheet" href="../css/estiloLogIn.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/js/tempusdominus-bootstrap-4.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css" />
+
+<br><br>
+<div class="alert-success">
+    <br>
+    <h1 class="text-light m-4 font-weight-bold display-1 bg-success text-center">CREAR CUENTA</h1>
+    <br><br>
+    <form class="text-center form-signin container" method="POST" action="/signedup">
+        <h4>Nombre:</h4>
+        <input type="text" name="nombre" id="usuario" class="texto text-center form-control" placeholder="Usuario" required="true"
+            autofocus="" style="background-color: lightgreen; color: black;">
+        <h4>Email:</h4>
+        <input type="email" name="email" id="email" class="texto text-center form-control" placeholder="E-mail" required="true"
+            autofocus="" style="background-color: lightgreen; color: black;">
+        <h4>Edad:</h4>
+        <input type="number" name="edad" id="edad" class="texto text-center form-control" placeholder="Edad" required="true"
+            autofocus="" style="background-color: lightgreen; color: black;">
+        <h4>Contraseña:</h4>
+        <input type="password" name="password" id="password" class="texto text-center form-control " placeholder="Contraseña"
+            required="true" style="background-color: lightgreen; color: black;">
+        <br>
+        <div class="checkbox mb-6">
+            <label>
+                <input type="checkbox" value="remember-me" required="true"> Aceptro los <a class="link"
+                    href="/signedup">terminos de Uso</a> de picCloud
+            </label>
+        </div>
+        <br>
+        <button class="texto btn btn-lg btn-dark btn-block" type="submit">Crear Cuenta</button>
+        <br>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<br><br><br><br>

@@ -1,0 +1,9 @@
+<?php
+    include('../html/header_logIn.html');
+?>
+<?php
+    include('../html/noLogueado.html');
+?>
+<?php
+    include('../html/footer.html');
+?>
