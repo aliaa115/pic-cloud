@@ -21,7 +21,7 @@
     "express": "^4.17.3",
     "express-session": "^1.17.2",
     "jsdom": "^19.0.0",
-    "mongoose": "^6.3.0",
+    "mongoose": "^6.4.6",
     "mquery": ">=4.0.2",
     "passport": "^0.5.2",
     "passport-local": "^1.0.0",
